@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjab - Colors of Pakistan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Injection -->
+    <script src="navbar.js"></script>
+
+    <!-- 1. HERO SECTION -->
+    <div class="relative bg-gradient-to-br from-orange-800 via-orange-700 to-orange-900 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 py-24 text-center z-10 relative">
+            <span class="uppercase tracking-widest text-orange-200 text-sm font-semibold mb-2 block">Province of</span>
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-tight">Punjab</h1>
+            <p class="text-2xl md:text-3xl font-light text-orange-100 mb-6">The Land of Five Rivers</p>
+            <p class="urdu-font text-4xl text-orange-200">پنجاب</p>
+            
+            <!-- Animated Background Blobs -->
+            <div class="absolute top-0 left-0 -mt-20 -ml-20 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+            <div class="absolute bottom-0 right-0 -mb-20 -mr-20 w-96 h-96 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        </div>
+    </div>
+
+    <!-- 2. IDENTITY & OVERVIEW -->
+    <div class="bg-white py-16 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-3 gap-12">
+                <!-- Left: Identity Column -->
+                <div class="lg:col-span-1 bg-orange-50 rounded-2xl p-8 border border-orange-100 text-center">
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-gray-500 text-xs font-bold uppercase tracking-wider mb-2">Provincial Flag</h3>
+                            <img src="resources/Flag_of_Punjab.svg" alt="Flag of Punjab" class="h-24 mx-auto shadow-sm">
+                        </div>
+                        <div>
+                            <h3 class="text-gray-500 text-xs font-bold uppercase tracking-wider mb-2">Government Emblem</h3>
+                            <img src="resources/emblem_of_Punjab.svg" alt="Emblem of Punjab" class="h-24 mx-auto">
+                        </div>
+                        <div>
+                            <h3 class="text-gray-500 text-xs font-bold uppercase tracking-wider mb-2">Location</h3>
+                            <img src="resources/map_of_Punjab.png" alt="Map of Punjab" class="h-32 mx-auto">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Introduction -->
+                <div class="lg:col-span-2 flex flex-col justify-center">
+                    <span class="text-orange-600 font-bold tracking-wider uppercase text-sm mb-2">Overview</span>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">Heart of Pakistan</h2>
+                    <div class="prose max-w-none text-gray-600 text-lg leading-relaxed">
+                        <p class="mb-4">
+                            Punjab is the most populous province of Pakistan, housing over half of the country's population. Its name is derived from the Persian words <strong>Panj</strong> (Five) and <strong>Ab</strong> (Water), referring to the five tributaries of the Indus River: Jhelum, Chenab, Ravi, Sutlej, and Beas.
+                        </p>
+                        <p>
+                            It is the agricultural breadbasket of the nation, known for its fertile alluvial plains, extensive irrigation network, and vibrant culture. Lahore, the provincial capital, is the historic cultural hub of the region.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. QUICK FACTS -->
+    <div class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-gray-100">
+                <div class="p-4">
+                    <i class="fas fa-landmark text-3xl text-orange-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm uppercase font-bold tracking-wide">Capital</h4>
+                    <p class="text-xl font-bold text-gray-800 mt-1">Lahore</p>
+                </div>
+                <div class="p-4">
+                    <i class="fas fa-users text-3xl text-orange-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm uppercase font-bold tracking-wide">Population</h4>
+                    <p class="text-xl font-bold text-gray-800 mt-1">127 Million+</p>
+                </div>
+                <div class="p-4">
+                    <i class="fas fa-ruler-combined text-3xl text-orange-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm uppercase font-bold tracking-wide">Area</h4>
+                    <p class="text-xl font-bold text-gray-800 mt-1">205,344 km²</p>
+                </div>
+                <div class="p-4">
+                    <i class="fas fa-language text-3xl text-orange-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm uppercase font-bold tracking-wide">Language</h4>
+                    <p class="text-xl font-bold text-gray-800 mt-1">Punjabi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. HISTORY & GEOGRAPHY (Zig-Zag) -->
+    <section class="bg-gray-50 py-16 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm block mb-2">Heritage & Land</span>
+                <h2 class="text-3xl font-bold text-gray-800">History & Geography</h2>
+                <div class="w-24 h-1 bg-orange-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="space-y-20">
+                <!-- History -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <h3 class="font-bold text-2xl mb-4 text-orange-800">Cradle of Civilization</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Punjab has a history dating back to the ancient <strong>Indus Valley Civilization</strong> (Harappa). It has been a melting pot of religions and empires, ruled by the Greeks, Mauryans, Mughals, Sikhs, and the British.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed">
+                            Lahore reached its zenith during the Mughal era, leaving behind architectural wonders. The ruins of Harappa reveal a sophisticated urban society from 3300 BCE.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 flex justify-center">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-orange-200 transform translate-x-3 translate-y-3 rounded-lg"></div>
+                            <!-- Real Image: Harappa -->
+                            <img src="resources/Harappa.jpg" alt="Ruins of Harappa" class="relative z-10 max-h-80 w-auto rounded-lg shadow-lg object-contain bg-white">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Geography -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                        <h3 class="font-bold text-2xl mb-4 text-orange-800">Fertile Plains & Deserts</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Most of Punjab consists of fertile alluvial plains, part of the Indus River basin. It boasts one of the largest irrigation systems in the world.
+                        </p>
+                        <p class="text-gray-600 leading-relaxed">
+                            The landscape is diverse: from the <strong>Pothohar Plateau</strong> and Salt Range in the north to the arid <strong>Cholistan Desert</strong> in the south, home to nomadic herders.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 flex justify-center">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-yellow-200 transform -translate-x-3 translate-y-3 rounded-lg"></div>
+                            <!-- Real Image: People of Cholistan -->
+                            <img src="resources/People_of_Cholistan.jpg" alt="Cholistan Desert Life" class="relative z-10 max-h-80 w-auto rounded-lg shadow-lg object-contain bg-white">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ECONOMY (Feature + List) -->
+    <section class="bg-white py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm block mb-2">Growth Engine</span>
+                <h2 class="text-3xl font-bold text-gray-800">Economy</h2>
+                <div class="w-24 h-1 bg-orange-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Left: Big Feature Image -->
+                <div class="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl group">
+                    <!-- Real Image: Textile -->
+                    <img src="resources/Textile.jpg" alt="Textile Industry" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8 text-white">
+                        <span class="bg-orange-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Industry</span>
+                        <h3 class="text-3xl font-bold mt-2 mb-2">Industrial Hub</h3>
+                        <p class="text-gray-200 leading-relaxed">
+                            Punjab is the most industrialized province, leading in textiles, sports goods, and surgical instruments.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right: Sectors List -->
+                <div class="space-y-8 flex flex-col justify-center">
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden shadow-md">
+                            <!-- Real Image: Wheat -->
+                            <img src="resources/Wheat.jpg" alt="Agriculture" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Agriculture</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Produces the bulk of Pakistan's wheat, rice, and cotton. Known as the "Granary of Pakistan".
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden shadow-md border border-gray-100 bg-white flex items-center justify-center text-orange-600">
+                            <!-- Real Image: Sialkot Football -->
+                            <img src="resources/Sialkot_Football.jpg" alt="Sialkot Footballs" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Sialkot Exports</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                The city of Sialkot is world-famous for producing hand-stitched footballs (used in FIFA World Cups) and surgical tools.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden shadow-md border border-gray-100 bg-white flex items-center justify-center text-orange-600">
+                            <!-- Real Image: Urbanization -->
+                            <img src="resources/Urbanization_Punjab.jpg" alt="Urban Punjab" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Services & Urbanization</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Rapid urbanization in Lahore, Faisalabad, and Rawalpindi drives a booming services and tech sector.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CULTURE & LIFESTYLE (Grid) -->
+    <section class="bg-orange-50 py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm block mb-2">Vibrant Life</span>
+                <h2 class="text-3xl font-bold text-gray-800">Culture & Lifestyle</h2>
+                <div class="w-24 h-1 bg-orange-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Cuisine -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <!-- Real Image: Sarson ka Saag -->
+                    <img src="resources/Sarson_Ka_Saag.webp" alt="Sarson ka Saag" class="w-24 h-24 rounded-full object-cover border-4 border-orange-100 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-orange-800 mb-2">Rich Cuisine</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Punjabi food is rich and buttery. Favorites include <strong>Sarson ka Saag</strong> (mustard greens) with <strong>Makki di Roti</strong>, Paya, and Lassi. Lahore is the undisputed food capital.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Festivals & Music -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <!-- Real Image: Dhol Player -->
+                    <img src="resources/Overload_Dhol_Player.jpg" alt="Dhol Player" class="w-24 h-24 rounded-full object-cover border-4 border-orange-100 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-orange-800 mb-2">Festivals & Music</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            The land of Sufi poets like <strong>Bulleh Shah</strong>. Folk music is soulful and energetic, often featuring the powerful beats of the Dhol.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Sports -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <!-- Real Image: Kabaddi -->
+                    <img src="resources/pakistan-kabbadi.jpg" alt="Kabaddi" class="w-24 h-24 rounded-full object-cover border-4 border-orange-100 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-orange-800 mb-2">Sports Passion</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            <strong>Kabaddi</strong> is the traditional rural sport. Cricket is also loved everywhere, with the Lahore Qalandars representing the province in the PSL.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Language -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <div class="w-24 h-24 rounded-full bg-orange-100 flex items-center justify-center text-orange-600 flex-shrink-0 text-3xl">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-orange-800 mb-2">Language</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            <strong>Punjabi</strong> is the mother tongue of the majority, written in the Shahmukhi script. Urdu and English are also widely used in education and business.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. TOURISM (Image Grid) -->
+    <section class="bg-white py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800">Tourist Destinations</h2>
+                <p class="text-gray-500 mt-2">Historical landmarks and architectural marvels.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <img src="resources/Badshahi_Mosque.jpg" alt="Badshahi Mosque" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Badshahi Mosque</h4>
+                        <p class="text-xs">Lahore</p>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <img src="resources/Minar-e-Pakistan.jpg" alt="Minar-e-Pakistan" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Minar-e-Pakistan</h4>
+                        <p class="text-xs">Lahore</p>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <!-- Real Image: Rohtas Fort -->
+                    <img src="resources/Rohtas_Fort.jpg" alt="Rohtas Fort" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Rohtas Fort</h4>
+                        <p class="text-xs">Jhelum (UNESCO Site)</p>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <!-- Real Image: Darawar Fort -->
+                    <img src="resources/Darawar_Fort.jpg" alt="Derawar Fort" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Derawar Fort</h4>
+                        <p class="text-xs">Cholistan Desert</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 mt-auto text-center"><p>&copy; 2025 Colors of Pakistan. Celebrating Heritage.</p></footer>
+</body>
+</html>

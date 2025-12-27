@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors of Pakistan - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Injection -->
+    <script src="navbar.js"></script>
+
+    <!-- 1. HERO SECTION -->
+    <div class="relative bg-gradient-to-br from-green-900 via-green-800 to-green-900 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 py-24 flex flex-col-reverse md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2 text-center md:text-left z-10">
+                <span class="uppercase tracking-widest text-green-300 text-sm font-semibold mb-2 block">Welcome to</span>
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
+                    The Islamic Republic of <span class="text-green-300">Pakistan</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-green-100 mb-8 max-w-lg mx-auto md:mx-0 font-light leading-relaxed">
+                    A land where ancient civilizations meet breathtaking landscapes. From the peaks of K2 to the shores of the Arabian Sea, discover the 5th most populous nation on Earth.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#overview" class="bg-white text-green-900 font-bold py-3 px-8 rounded-full hover:bg-green-50 transition shadow-lg">Start Journey</a>
+                    <a href="#anthem" class="border-2 border-green-300 text-green-100 font-bold py-3 px-8 rounded-full hover:bg-green-800 transition flex items-center justify-center">
+                        <i class="fas fa-play mr-2"></i> National Anthem
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center z-10">
+                <img src="resources/Flag_of_Pakistan.svg" alt="Flag of Pakistan" class="w-full max-w-lg shadow-2xl rounded-lg transform hover:scale-105 transition duration-500 border-4 border-white/20">
+            </div>
+            <!-- Background Elements -->
+            <div class="absolute top-0 right-0 -mt-20 -mr-20 w-96 h-96 bg-green-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+            <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-96 h-96 bg-emerald-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        </div>
+    </div>
+
+    <!-- 2. IDENTITY & OVERVIEW (Side-by-Side) -->
+    <div id="overview" class="bg-white py-16 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-3 gap-12">
+                
+                <!-- Left: Identity Column -->
+                <div class="lg:col-span-1 bg-green-50 rounded-2xl p-8 border border-green-100">
+                    <div class="text-center">
+                        <img src="resources/State_emblem_of_Pakistan.svg" alt="State Emblem" class="h-32 w-auto mx-auto mb-6">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">National Identity</h2>
+                        <p class="text-green-700 font-semibold mb-6">Faith, Unity, Discipline</p>
+                        
+                        <!-- Anthem Player -->
+                        <div class="bg-white p-4 rounded-xl shadow-sm mb-6">
+                            <p class="text-xs text-gray-500 uppercase tracking-wide font-bold mb-2">National Anthem</p>
+                            <audio controls class="w-full focus:outline-none h-8">
+                                <source src="resources/National_anthem_of_Pakistan,_instrumental.oga" type="audio/ogg">
+                            </audio>
+                        </div>
+
+                        <!-- Globe Image (Restored) -->
+                        <div class="mb-6">
+                            <p class="text-xs text-gray-500 uppercase tracking-wide font-bold mb-2">Global Location</p>
+                            <img src="resources/PAK_orthographic.svg" alt="Pakistan on Globe" class="w-32 h-auto mx-auto drop-shadow-md hover:scale-110 transition duration-300">
+                        </div>
+
+                        <!-- Quick Stats -->
+                        <div class="text-left space-y-3 text-sm text-gray-600 border-t border-green-200 pt-4">
+                            <div class="flex justify-between"><span>Capital:</span> <span class="font-bold text-gray-800">Islamabad</span></div>
+                            <div class="flex justify-between"><span>Population:</span> <span class="font-bold text-gray-800">241 Million+</span></div>
+                            <div class="flex justify-between"><span>Area:</span> <span class="font-bold text-gray-800">881,913 km²</span></div>
+                            <div class="flex justify-between"><span>Language:</span> <span class="font-bold text-gray-800">Urdu, English</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Text & Map Column -->
+                <div class="lg:col-span-2 flex flex-col justify-center">
+                    <span class="text-green-600 font-bold tracking-wider uppercase text-sm mb-2">Introduction</span>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">A Land of Diversity</h2>
+                    <div class="prose max-w-none text-gray-600 text-lg leading-relaxed">
+                        <p class="mb-4">
+                            Pakistan, officially the <strong>Islamic Republic of Pakistan</strong>, stands at the crossroads of South Asia, Central Asia, and the Middle East. It is a country defined by its incredible resilience and geographic diversity. From the frozen glaciers of the north to the warm waters of the Arabian Sea in the south, the landscape is as varied as its people.
+                        </p>
+                        <p class="mb-6">
+                            Islamabad is the lush, green capital city nestled in the Margalla Hills, while Karachi acts as the economic engine and largest metropolis on the coast. The country is administratively divided into provinces that each hold a unique cultural identity, language, and history, yet are united under one flag.
+                        </p>
+                    </div>
+                    <!-- Wide Map Banner -->
+                    <div class="mt-6 bg-gray-100 rounded-xl overflow-hidden border border-gray-200 shadow-inner">
+                        <img src="resources/map_of_Pakistan.png" alt="Map of Pakistan" class="w-full h-64 object-contain p-4 bg-white">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. HISTORY: TIMELINE LAYOUT (Zig-Zag) -->
+    <section class="bg-white py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800">History & Civilization</h2>
+                <div class="w-24 h-1 bg-green-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+            <div class="space-y-24 relative">
+                <!-- Vertical Line (Hidden on mobile) -->
+                <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-green-100 transform -translate-x-1/2"></div>
+
+                <!-- Ancient Era -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2 text-right md:pr-12">
+                        <h3 class="font-bold text-2xl mb-4 text-green-800">Ancient Roots</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Pakistan is the cradle of the <strong>Indus Valley Civilization</strong> (3300–1300 BCE), one of the oldest in the world, home to the planned cities of Mohenjo-daro and Harappa. The region also flourished under the Gandhara civilization, becoming a global hub of Buddhism and art, where East met West under Greek influence.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <div class="bg-white p-2 rounded-lg shadow-lg border border-gray-100 rotate-2 hover:rotate-0 transition duration-300">
+                            <img src="resources/Mohenjo-daro.jpg" alt="Indus Valley" class="w-full h-64 object-cover rounded">
+                            <p class="text-xs text-gray-400 mt-2 text-center italic">Ruins of Mohenjo-daro</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Islamic Era -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2 text-left md:pl-12">
+                        <h3 class="font-bold text-2xl mb-4 text-green-800">Islamic & Mughal Era</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            The arrival of Muhammad bin Qasim in 712 CE marked the beginning of Islamic influence. Later, the <strong>Mughal Empire</strong> ushered in a golden age of art and architecture. They left behind a legacy of majestic gardens, intricate calligraphy, and forts that still dominate the skylines of Lahore and Multan.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 md:pr-12">
+                        <div class="bg-white p-2 rounded-lg shadow-lg border border-gray-100 -rotate-2 hover:rotate-0 transition duration-300">
+                            <img src="resources/Badshahi_Mosque.jpg" alt="Badshahi Mosque" class="w-full h-64 object-cover rounded">
+                            <p class="text-xs text-gray-400 mt-2 text-center italic">Badshahi Mosque, Lahore</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Independence -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2 text-right md:pr-12">
+                        <h3 class="font-bold text-2xl mb-4 text-green-800">Independence (1947)</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Following the decline of the British Raj, the Muslims of the subcontinent united under the leadership of <strong>Quaid-e-Azam Muhammad Ali Jinnah</strong>. After a democratic struggle, Pakistan emerged as a sovereign state on 14 August 1947, fulfilling the dream of the poet-philosopher Allama Iqbal.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <div class="bg-white p-2 rounded-lg shadow-lg border border-gray-100 rotate-2 hover:rotate-0 transition duration-300">
+                            <img src="resources/Minar-e-Pakistan.jpg" alt="Minar-e-Pakistan" class="w-full h-64 object-cover rounded">
+                            <p class="text-xs text-gray-400 mt-2 text-center italic">Minar-e-Pakistan, Symbol of Freedom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. GEOGRAPHY: 3-COLUMN CARD LAYOUT (Vertical Flow) -->
+    <section class="bg-gray-50 py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-green-600 font-bold tracking-wider uppercase text-sm block mb-2">Land & Nature</span>
+                <h2 class="text-4xl font-bold text-gray-800">Geography, Flora & Fauna</h2>
+                <div class="w-24 h-1 bg-green-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Mountains Card -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col hover:-translate-y-2 transition duration-300">
+                    <img src="resources/K2.jpg" alt="K2 Mountain" class="w-full h-64 object-cover">
+                    <div class="p-8 flex-grow">
+                        <h3 class="text-xl font-bold text-green-800 mb-3">The Frozen Giants</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Pakistan is the meeting point of three of the world's most spectacular mountain ranges: the Himalayas, the Karakoram, and the Hindukush. The northern areas boast the densest collection of high peaks in the world, including <strong>K2</strong> (8,611m), the second-highest mountain on Earth.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Wildlife Card -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col hover:-translate-y-2 transition duration-300">
+                    <img src="resources/Markhor.jpg" alt="Markhor" class="w-full h-64 object-cover">
+                    <div class="p-8 flex-grow">
+                        <h3 class="text-xl font-bold text-green-800 mb-3">Unique Fauna</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            The biodiversity is immense. The national animal is the screw-horned <strong>Markhor</strong>, found in the rugged cliffs. The Indus River sustains the rare Blind Dolphin. From Snow Leopards in the north to Green Turtles on the southern beaches, the wildlife is diverse and precious.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Desert Card -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden flex flex-col hover:-translate-y-2 transition duration-300">
+                    <img src="resources/Herders_in_Tharparkar.jpg" alt="Desert" class="w-full h-64 object-cover">
+                    <div class="p-8 flex-grow">
+                        <h3 class="text-xl font-bold text-green-800 mb-3">Deserts & Coast</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Contrasting the peaks are the vast deserts of Thar and Cholistan, rich in folklore and color. To the south stretches a 1,046 km coastline along the Arabian Sea, featuring the deep-sea port of Gwadar and unique natural mud volcanoes along the Makran Coastal Highway.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ECONOMY: FEATURE + LIST LAYOUT (Asymmetrical) -->
+    <section class="bg-white py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800">Economy & Growth</h2>
+                <div class="w-24 h-1 bg-green-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Left: Big Visual Feature -->
+                <div class="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl group">
+                    <img src="resources/Gwadar.jpg" alt="Gwadar Port" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8 text-white">
+                        <span class="bg-green-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Future</span>
+                        <h3 class="text-3xl font-bold mt-2 mb-2">Trade & CPEC</h3>
+                        <p class="text-gray-200 leading-relaxed">
+                            The China-Pakistan Economic Corridor (CPEC) is transforming Pakistan into a regional trade hub. Gwadar Port is the crown jewel, connecting South Asia to Central Asia and China.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right: Detailed List -->
+                <div class="space-y-8 flex flex-col justify-center">
+                    <!-- Item 1 -->
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden shadow-md">
+                            <img src="resources/Wheat.jpg" alt="Agriculture" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Agriculture Backbone</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Employing a massive portion of the workforce, Pakistan is a top global producer of wheat, cotton, rice, sugarcane, and the world-famous Mangoes ("King of Fruits").
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden shadow-md">
+                            <img src="resources/Textile.jpg" alt="Textile" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Textile Industry</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Textiles contribute nearly 60% to national exports. Pakistan produces high-quality cotton yarn, denim, and fabrics for major international clothing brands.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden shadow-md">
+                            <!-- UPDATED: Tech.jpg -->
+                            <img src="resources/Tech.jpg" alt="Tech" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Tech & Freelancing</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                A rapidly growing sector, Pakistan is becoming a global hub for freelance IT talent, software development, and startups, driven by a young, English-speaking population.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CULTURE & SOCIETY: GRID LAYOUT (2x2) -->
+    <section class="bg-gray-50 py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-green-600 font-bold tracking-wider uppercase text-sm block mb-2">People & Lifestyle</span>
+                <h2 class="text-4xl font-bold text-gray-800">Culture & Society</h2>
+                <div class="w-24 h-1 bg-green-600 mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Culture Block -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <img src="resources/Culture.webp" alt="Culture" class="w-24 h-24 rounded-full object-cover border-4 border-green-50 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-green-800 mb-2">Ethnicity & Languages</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            A melting pot of Punjabis, Pashtuns, Sindhis, and Baloch. While over 60 languages are spoken, <strong>Urdu</strong> unites them as the national language.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Religion Block -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <img src="resources/Faisal_Mosque.jpg" alt="Religion" class="w-24 h-24 rounded-full object-cover border-4 border-green-50 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-green-800 mb-2">Faith & Harmony</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Islam (96%) is the state religion, exemplified by icons like Faisal Mosque. Minorities including Christians, Hindus, and Sikhs are integral to the social fabric.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Cuisine Block -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <img src="resources/Shinwari-Karahi.jpg" alt="Cuisine" class="w-24 h-24 rounded-full object-cover border-4 border-green-50 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-green-800 mb-2">Culinary Delights</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Known for richness and spice. Staples include <strong>Biryani</strong>, <strong>Nihari</strong>, and BBQ. Hospitality is incomplete without a cup of hot Chai.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Sports Block -->
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex flex-col md:flex-row gap-6 items-start">
+                    <img src="resources/Cricket.jpg" alt="Sports" class="w-24 h-24 rounded-full object-cover border-4 border-green-50 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-green-800 mb-2">Sporting Nation</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            <strong>Cricket</strong> is a national obsession (1992 World Cup Champions). Pakistan also holds a legendary status in Field Hockey and Squash.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Provinces Navigation (Cards) -->
+    <div id="provinces" class="bg-white py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800">Explore the Regions</h2>
+                <div class="w-24 h-1 bg-green-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Punjab -->
+                <a href="punjab.html" class="group bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition overflow-hidden border-b-4 border-orange-500">
+                    <div class="h-40 bg-orange-100 flex items-center justify-center group-hover:bg-orange-200 transition">
+                        <i class="fas fa-wheat-awn text-6xl text-orange-500"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-orange-600">Punjab</h3>
+                        <p class="text-gray-500 mt-2 text-sm">The land of five rivers and vibrant culture.</p>
+                    </div>
+                </a>
+                <!-- Sindh -->
+                <a href="sindh.html" class="group bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition overflow-hidden border-b-4 border-blue-700">
+                    <div class="h-40 bg-blue-100 flex items-center justify-center group-hover:bg-blue-200 transition">
+                        <i class="fas fa-water text-6xl text-blue-700"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-blue-800">Sindh</h3>
+                        <p class="text-gray-500 mt-2 text-sm">The land of Sufis and the Indus civilization.</p>
+                    </div>
+                </a>
+                <!-- KPK -->
+                <a href="kpk.html" class="group bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition overflow-hidden border-b-4 border-emerald-600">
+                    <div class="h-40 bg-emerald-100 flex items-center justify-center group-hover:bg-emerald-200 transition">
+                        <i class="fas fa-mountain text-6xl text-emerald-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-emerald-700">KPK</h3>
+                        <p class="text-gray-500 mt-2 text-sm">The land of hospitality and mountains.</p>
+                    </div>
+                </a>
+                <!-- Balochistan -->
+                <a href="balochistan.html" class="group bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition overflow-hidden border-b-4 border-red-800">
+                    <div class="h-40 bg-red-100 flex items-center justify-center group-hover:bg-red-200 transition">
+                        <i class="fas fa-gem text-6xl text-red-800"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-red-900">Balochistan</h3>
+                        <p class="text-gray-500 mt-2 text-sm">The land of minerals and vast deserts.</p>
+                    </div>
+                </a>
+                <!-- GB -->
+                <a href="gb.html" class="group bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition overflow-hidden border-b-4 border-cyan-500">
+                    <div class="h-40 bg-cyan-100 flex items-center justify-center group-hover:bg-cyan-200 transition">
+                        <i class="fas fa-snowflake text-6xl text-cyan-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-cyan-700">Gilgit-Baltistan</h3>
+                        <p class="text-gray-500 mt-2 text-sm">Home to K2 and breathtaking peaks.</p>
+                    </div>
+                </a>
+                <!-- Kashmir -->
+                <a href="kashmir.html" class="group bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition overflow-hidden border-b-4 border-teal-600">
+                    <div class="h-40 bg-teal-100 flex items-center justify-center group-hover:bg-teal-200 transition">
+                        <i class="fas fa-leaf text-6xl text-teal-600"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-teal-700">Azad Kashmir</h3>
+                        <p class="text-gray-500 mt-2 text-sm">Heaven on earth with lush green valleys.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-8 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2025 Colors of Pakistan. Celebrating Heritage.</p>
+        </div>
+    </footer>
+</body>
+</html>

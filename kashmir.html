@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azad Kashmir - Colors of Pakistan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="navbar.js"></script>
+
+    <!-- 1. HERO -->
+    <div class="relative bg-gradient-to-br from-teal-800 via-teal-700 to-teal-900 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 py-24 text-center z-10 relative">
+            <span class="uppercase tracking-widest text-teal-200 text-sm font-semibold mb-2 block">State of</span>
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-tight">Azad Jammu & Kashmir</h1>
+            <p class="text-2xl md:text-3xl font-light text-teal-100 mb-6">Heaven on Earth</p>
+            <p class="urdu-font text-4xl text-teal-200">آزاد جموں و کشمیر</p>
+            
+            <!-- Animated Background Blobs -->
+            <div class="absolute top-0 left-0 -mt-20 -ml-20 w-96 h-96 bg-teal-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+            <div class="absolute bottom-0 right-0 -mb-20 -mr-20 w-96 h-96 bg-green-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        </div>
+    </div>
+
+    <!-- 2. IDENTITY & OVERVIEW -->
+    <div class="bg-white py-16 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid lg:grid-cols-3 gap-12">
+                <div class="lg:col-span-1 bg-teal-50 rounded-2xl p-8 border border-teal-100 text-center">
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-gray-500 text-xs font-bold uppercase tracking-wider mb-2">State Flag</h3>
+                            <img src="resources/Flag_of_Kashmir.svg" alt="Flag of Kashmir" class="h-24 mx-auto shadow-sm">
+                        </div>
+                        <div>
+                            <h3 class="text-gray-500 text-xs font-bold uppercase tracking-wider mb-2">State Emblem</h3>
+                            <img src="resources/emblem_of_Kashmir.png" alt="Emblem of Kashmir" class="h-24 mx-auto">
+                        </div>
+                        <div>
+                            <h3 class="text-gray-500 text-xs font-bold uppercase tracking-wider mb-2">Location</h3>
+                            <img src="resources/map_of_Kashmir.png" alt="Map of Kashmir" class="h-32 mx-auto">
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 flex flex-col justify-center">
+                    <span class="text-teal-600 font-bold tracking-wider uppercase text-sm mb-2">Overview</span>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">The Valley of Beauty</h2>
+                    <div class="prose max-w-none text-gray-600 text-lg leading-relaxed">
+                        <p class="mb-4">
+                            Azad (Free) Jammu & Kashmir is a self-governing state under the protection of Pakistan. It is world-famous for its breathtaking natural beauty, including the Neelum Valley, lush forests, and waterfalls.
+                        </p>
+                        <p>
+                            It boasts a high literacy rate (74%) and a strong connection to the global diaspora. The culture is a blend of mountain traditions, Sufi wisdom, and resilience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. QUICK FACTS -->
+    <div class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-gray-100">
+                <div class="p-4">
+                    <i class="fas fa-landmark text-3xl text-teal-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm font-bold uppercase">Capital</h4>
+                    <p class="text-xl font-bold">Muzaffarabad</p>
+                </div>
+                <div class="p-4">
+                    <i class="fas fa-users text-3xl text-teal-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm font-bold uppercase">Population</h4>
+                    <p class="text-xl font-bold">~4.05 Million</p>
+                </div>
+                <div class="p-4">
+                    <i class="fas fa-ruler-combined text-3xl text-teal-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm font-bold uppercase">Area</h4>
+                    <p class="text-xl font-bold">13,297 km²</p>
+                </div>
+                <div class="p-4">
+                    <i class="fas fa-book-open text-3xl text-teal-600 mb-3"></i>
+                    <h4 class="text-gray-500 text-sm font-bold uppercase">Literacy</h4>
+                    <p class="text-xl font-bold">74%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. HISTORY & GEOGRAPHY (Zig-Zag) -->
+    <section class="bg-gray-50 py-16 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800">History & Geography</h2>
+                <div class="w-24 h-1 bg-teal-600 mx-auto mt-2"></div>
+            </div>
+            
+            <div class="space-y-20">
+                <!-- History -->
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <h3 class="font-bold text-2xl mb-4 text-teal-800">Freedom Struggle</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Established on 24 October 1947 following a rebellion in Poonch against the Maharaja. It stands as a symbol of the Kashmiri struggle for self-determination.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 flex justify-center">
+                        <div class="flex flex-col items-center">
+                            <div class="p-2 bg-white rounded-lg shadow-lg border border-gray-100">
+                                <!-- Real Image: Kashmir Attire/People -->
+                                <img src="resources/Kashmir_Attire.jpg" alt="People of Kashmir" class="relative z-10 max-h-80 w-auto rounded-lg shadow-lg object-contain bg-white">
+                            </div>
+                            <p class="text-sm text-gray-500 mt-2 italic">Traditional Kashmiri Heritage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Geography -->
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                        <h3 class="font-bold text-2xl mb-4 text-teal-800">Green Valleys</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Known for the Neelum and Jhelum rivers. The geography ranges from low hills in Mirpur to alpine peaks in the north, creating a paradise of green forests and snow-capped mountains.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2 flex justify-center">
+                        <div class="flex flex-col items-center">
+                            <div class="p-2 bg-white rounded-lg shadow-lg border border-gray-100">
+                                <!-- Real Image: Arang Kel (Morning) -->
+                                <img src="resources/Arang_Kel_Morning.jpg" alt="Arang Kel Landscape" class="relative z-10 max-h-80 w-auto rounded-lg shadow-lg object-contain bg-white">
+                            </div>
+                            <p class="text-sm text-gray-500 mt-2 italic">Arang Kel, Neelum Valley</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ECONOMY (Feature + List) -->
+    <section class="bg-white py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-teal-600 font-bold tracking-wider uppercase text-sm block mb-2">Growth & Resources</span>
+                <h2 class="text-3xl font-bold text-gray-800">Economy</h2>
+                <div class="w-24 h-1 bg-teal-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Big Feature Image -->
+                <div class="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl group">
+                    <!-- Real Image: Hydropower Plant -->
+                    <img src="resources/Neelum_Jhelum_Hydropower_Plant.jpg" alt="Neelum Jhelum Dam" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8 text-white">
+                        <span class="bg-teal-600 text-xs font-bold px-3 py-1 rounded-full uppercase">Energy</span>
+                        <h3 class="text-3xl font-bold mt-2 mb-2">Hydropower</h3>
+                        <p class="text-gray-200 leading-relaxed">
+                            The Neelum-Jhelum project contributes significant green energy to the national grid, utilizing the region's powerful rivers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Sectors List -->
+                <div class="space-y-8 flex flex-col justify-center">
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 bg-teal-50 rounded-lg flex items-center justify-center text-teal-600 text-3xl shadow-sm">
+                            <i class="fas fa-pound-sign"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Remittances</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                A large diaspora, particularly in the UK (Mirpur community), contributes significantly to the local economy through remittances.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-6">
+                        <div class="w-24 h-24 rounded-lg overflow-hidden shadow-md">
+                            <!-- Real Image: Leepa Valley -->
+                            <img src="resources/Leepa_AJK.jpg" alt="Leepa Valley" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Tourism & Leepa</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                Tourism is a major economic driver. Places like the Leepa Valley are famous for their terraced rice fields and scenic beauty.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CULTURE (Grid) -->
+    <section class="bg-teal-50 py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-teal-600 font-bold tracking-wider uppercase text-sm block mb-2">Traditions</span>
+                <h2 class="text-3xl font-bold text-gray-800">Culture & Lifestyle</h2>
+                <div class="w-24 h-1 bg-teal-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Attire -->
+                <div class="bg-white p-8 rounded-xl shadow-sm flex gap-6 items-start">
+                    <!-- Real Image: Pheran -->
+                    <img src="resources/Pheran.jpg" alt="Pheran Attire" class="w-24 h-24 rounded-full object-cover border-4 border-teal-100 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-teal-800 mb-2">Attire</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            The <strong>Pheran</strong> (loose wool cloak) and Kangri (fire pot) are essential for beating the cold winters.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Cuisine -->
+                <div class="bg-white p-8 rounded-xl shadow-sm flex gap-6 items-start">
+                    <!-- Real Image: Kashmiri Chai -->
+                    <img src="resources/Kashmiri_Chai.jpg" alt="Kashmiri Chai" class="w-24 h-24 rounded-full object-cover border-4 border-teal-100 shadow-sm flex-shrink-0">
+                    <div>
+                        <h3 class="text-xl font-bold text-teal-800 mb-2">Cuisine</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            <strong>Kashmiri Chai</strong> (Pink Tea), Gushtaba (meatballs), and the elaborate Wazwan feast are culinary highlights.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. TOURISM (Image Grid) -->
+    <section class="bg-white py-16 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800">Tourist Destinations</h2>
+                <p class="text-gray-500 mt-2">Valleys, lakes, and peaks.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <!-- Real Image: Neelum Valley -->
+                    <img src="resources/Neelum_Valley.jpg" alt="Neelum Valley" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Neelum Valley</h4>
+                        <p class="text-xs">Blue Gem</p>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <!-- Real Image: Pir Chinasi -->
+                    <img src="resources/Pir_Chinasi.jpg" alt="Pir Chinasi" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Pir Chinasi</h4>
+                        <p class="text-xs">Muzaffarabad</p>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <!-- Real Image: Banjosa Lake -->
+                    <img src="resources/Lake_of_Banjosa.jpg" alt="Banjosa Lake" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Banjosa Lake</h4>
+                        <p class="text-xs">Rawalakot</p>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden h-64 group">
+                    <!-- Real Image: Leepa Valley (Reused here as a destination) -->
+                    <img src="resources/Leepa_AJK.jpg" alt="Leepa Valley" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+                    <div class="absolute bottom-4 left-4 text-white">
+                        <h4 class="font-bold text-lg">Leepa Valley</h4>
+                        <p class="text-xs">Scenic Terraces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 mt-auto text-center"><p>&copy; 2025 Colors of Pakistan. Celebrating Heritage.</p></footer>
+</body>
+</html>
